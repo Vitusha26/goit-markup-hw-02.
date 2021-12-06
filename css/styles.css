@@ -1,0 +1,215 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background: white;
+}
+.web-studio{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    line-height:30px;
+}
+.web{
+    color: #2196F3;
+}
+.studio{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+.studio-second{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+.menu-links a:hover{
+    color: #2196F3;
+}
+
+
+.menu-links a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+}
+
+
+.information a:hover{
+    color: #2196F3;
+}
+
+.information a{
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
+
+.first-sect{
+    background: #2F303A;
+}
+
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.btn{
+    background: #2196F3;
+    color: white;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+
+
+
+.features h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.text{
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+
+.fourz-sect{
+    background: #F5F4FA;
+}
+
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.our-team-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color:#757575;
+}
+
+footer{
+    background: #2F303A;
+}
+.location{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+address a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+
+
+
+
+.portfolio-list h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.portfolio-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+
+
+.what-we-do-img{
+    width: 370px;
+    height: 294px;
+}
+
+.our-team-img{
+    width: 270px;
+    height: 260px;
+}
+
+.portfolio-img{
+    width: 270px;
+    height: 294px;
+}
+
+.btn-all{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    border: none;
+}
+
+.menu-links a:visited{
+    background-color: #2196F3;
+}
