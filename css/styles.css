@@ -1,9 +1,19 @@
-@import "variable.css";
+:root {
+    --main-blue-color: #2196F3;
+    --main-black-color: #000;
+    --main-grey-color: #757575;
+    --main-white-color: #FFF;
+    --main-dark-grey-color: #00000026;
+    --main-dark-blue-color: #2F303A;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--black);
+    color: var(--main-black-color);
     font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 a {
@@ -16,90 +26,74 @@ li {
 
 
 .web-studio {
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.15;
 }
 
 .web {
     font-family: 'Raleway', sans-serif;
-    color: var(--blue);
+    color: var(--main-blue-color);
 }
 
 .studio {
     font-family: 'Raleway', sans-serif;
-    color: var(--black);
+    color: var(--main-black-color);
 }
 
 .studio-second {
-    font-weight: 700;
-    color: var(--white);
+    color: var(--main-white-color);
 }
 
 .menu-links {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    color: var(--black);
+    color: var(--main-black-color);
 }
 
 
 .information:hover {
-    color: var(--blue);
+    color: var(--main-blue-color);
 }
 
 .information {
-    color: var(--grey);
+    color: var(--main-grey-color);
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
 }
 
 
 .first-sect {
-    background: #2F303A;
+    background: var(--main-dark-blue-color);
 }
 
 .biggest-logo {
-    color: var(--white);
+    color: var(--main-white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
 }
 
 .btn {
-    background: var(--blue);
-    color: var(--white);
-    box-shadow: 0 4px 4px var(--dark-grey);
+    background: var(--main-blue-color);
+    color: var(--main-white-color);
+    box-shadow: 0 4px 4px var(--main-dark-grey-color);
     border-radius: 10px;
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
     cursor: pointer;
 }
 
-.third-logo {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-}
 
 .text {
-    color: var(--grey);
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.14;
 }
 
 .second-logo {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
 }
 
 
 .fourz-sect {
-    background: var(--white);
+    background: var(--main-white-color);
 }
 
 
@@ -108,43 +102,40 @@ li {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.125;
-    color: var(--grey);
+    color: var(--main-grey-color);
 }
 
 footer {
-    background: #2F303A;
+    background: var(--main-dark-blue-color);
 }
 
 .location {
-    color: var(--white);
+    color: var(--main-white-color);
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.74;
+    text-decoration: none;
 }
 
 .footers-text {
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.74;
-    color: var(--grey);
+    color: var(--main-grey-color);
 }
 
 .third-logo-portfolio {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
 
 .portfolio-text {
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.714;
-    color: var(--grey);
+    color: var(--main-grey-color);
 }
 
 
 .btn-all {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -153,30 +144,38 @@ footer {
     margin: 5px;
 }
 
+.text-style {
+    font-style: normal;
+}
+
 
 .menu-links:focus {
-    color: var(--blue);
+    color: var(--main-blue-color);
 }
 
 .menu-links:hover {
-    color: var(--blue);
+    color: var(--main-blue-color);
 }
 
 .current {
-    color: var(--blue);
+    color: var(--main-blue-color);
 }
 
 .information:hover {
-    color: var(--blue);
+    color: var(--main-blue-color);
+}
+
+.information:focus {
+    color: var(--main-white-color);
 }
 
 
 .btn-all:hover {
-    background: var(--blue);
-    color: var(--white);
+    background: var(--main-blue-color);
+    color: var(--main-white-color);
 }
 
 .btn-all:focus {
-    color: var(--white);
-    background: var(--blue);
+    color: var(--main-white-color);
+    background: var(--main-blue-color);
 }
