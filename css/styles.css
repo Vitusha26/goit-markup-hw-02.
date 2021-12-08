@@ -72,6 +72,7 @@ li {
 }
 
 .btn {
+    font-family: inherit;
     background: var(--main-blue-color);
     color: var(--main-white-color);
     box-shadow: 0 4px 4px var(--main-dark-grey-color);
@@ -98,7 +99,6 @@ li {
 
 
 .our-team-text {
-
     font-weight: 400;
     font-size: 16px;
     line-height: 1.125;
